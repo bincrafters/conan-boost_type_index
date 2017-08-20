@@ -3,6 +3,7 @@ from conans import ConanFile, tools, os
 class BoostType_IndexConan(ConanFile):
     name = "Boost.Type_Index"
     version = "1.64.0"
+    short_paths = True
     url = "https://github.com/bincrafters/conan-boost-type_index"
     source_url = "https://github.com/boostorg/type_index"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
