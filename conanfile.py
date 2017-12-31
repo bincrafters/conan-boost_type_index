@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostType_IndexConan(ConanFile):
     name = "boost_type_index"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-type_index"
+    url = "https://github.com/bincrafters/conan-boost_type_index"
     
     lib_short_names = ["type_index"]
     is_in_cycle_group = True
