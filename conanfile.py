@@ -8,7 +8,8 @@ class BoostType_IndexConan(ConanFile):
     name = "boost_type_index"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_type_index"
-    
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["type_index"]
     is_in_cycle_group = True
     is_header_only = True
